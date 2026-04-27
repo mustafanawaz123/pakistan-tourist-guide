@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pakistan Tourist Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="nav-logo">☪</span>
+      <span class="nav-title">Pakistan Tourist Guide</span>
+    </div>
+    <button class="btn-restart hidden" id="btnRestart">&#8635; Start Over</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="geo-shape geo-1"></div>
+      <div class="geo-shape geo-2"></div>
+      <div class="geo-shape geo-3"></div>
+      <div class="geo-shape geo-4"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="mountain-silhouette"></div>
+    <div class="hero-content">
+      <div class="hero-badge">&#10022; Discover Incredible Pakistan &#10022;</div>
+      <h1 class="hero-title">Explore the Land<br>of Beauty &amp; Culture</h1>
+      <p class="hero-subtitle">From the world's highest peaks to ancient civilizations — let us craft your perfect Pakistani adventure.</p>
+      <button class="btn-start" id="btnStart">Plan My Journey &#8594;</button>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">8</span>
+          <span class="stat-label">Terrain Types</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">32+</span>
+          <span class="stat-label">Destinations</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">200+</span>
+          <span class="stat-label">Attractions</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Progress Steps Bar -->
+  <div class="progress-bar hidden" id="progressBar">
+    <div class="progress-steps">
+      <div class="progress-step active" data-step="1">
+        <div class="step-circle">1</div>
+        <span class="step-label">Terrain</span>
+      </div>
+      <div class="progress-line" id="line-1-2"></div>
+      <div class="progress-step" data-step="2">
+        <div class="step-circle">2</div>
+        <span class="step-label">City</span>
+      </div>
+      <div class="progress-line" id="line-2-3"></div>
+      <div class="progress-step" data-step="3">
+        <div class="step-circle">3</div>
+        <span class="step-label">Budget &amp; Days</span>
+      </div>
+      <div class="progress-line" id="line-3-4"></div>
+      <div class="progress-step" data-step="4">
+        <div class="step-circle">4</div>
+        <span class="step-label">Your Route</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main App Area -->
+  <main class="app-main" id="appMain"></main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-logo">☪</span>
+      <p>Pakistan Tourist Guide &copy; 2026 &nbsp;|&nbsp; Explore the Beauty of Pakistan</p>
+      <p class="footer-tagline">Designed with love for Pakistani culture and tourism</p>
+    </div>
+  </footer>
+
+  <script src="/static/js/main.js"></script>
+</body>
+</html>

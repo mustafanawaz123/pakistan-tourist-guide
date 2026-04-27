@@ -1,0 +1,3 @@
+starlette
+jinja2
+uvicorn
